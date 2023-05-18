@@ -22,6 +22,13 @@ const rocky = {
     coupon: true,
 }
 
+// create a function 
+// use one parameter 
+// set the presciption price total equal to the pricePerRefill multiplied by how many refills they need. (use "let" to do so)
+// Create a if/else statement, If the customer has a subscription multiply the prescription price by .75 and if the customer has a coupon subtract 10 from the prescription price. 
+// return 'your grand total is' + prescription price.
+// console.log the total price of each customer. 
+
 function totalPrice(customer) {
     let prescriptionPrice = customer.pricePerRefill * customer.refills;
     if (customer.subscription){
